@@ -27,8 +27,20 @@ places = [
 
 sentence = []
 
-chosen_element = random.choice(characters)
+chosen_character = random.choice(characters)
 chosen_action = random.choice(actions)
-sentence.append(chosen_element)
+chosen_object = random.choice(objects)
+chosen_place = random.choice(places)
+
+sentence.append(chosen_character)
 sentence.append(chosen_action)
-print(sentence)
+sentence.append(chosen_object)
+sentence.append(chosen_place)
+
+sentence[0] = sentence[0].capitalize()
+
+for word in sentence:
+    print(word, end=" ")
+print()   # new line
+
+
