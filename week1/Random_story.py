@@ -43,4 +43,37 @@ for word in sentence:
     print(word, end=" ")
 print()   # new line
 
+#################################################################################################
 
+#  COUNTING NUMBERS
+# Create a list of 1000 random numbers between 1 and 10.
+# Write code to count the number of 1's in the list, the number of 2's in the list etc. This can be done a variety of ways.
+
+import random
+
+numbers= []
+
+for i in range(1000):
+    numbers.append(random.randint(1,10))
+
+counters = [0] * 10
+
+for value in range(1,11):
+    counters[value -1] = numbers.count(value)
+
+print("Numbers      Occurrences")
+print("========================")
+
+for i in range(10):
+    print(i + 1,"   ",counters[i])
+
+
+######################################################################################
+
+#  MOST COMMON NUMBER
+# Add code to display the most common number in the list of random numbers. You may assume the largest count is unique. 
+# This can be done without loops using max() to find the largest number and .index() 
+# to find its index. Knowing its index is a simple +1 to get the number. 
+
+for num in numbers:
+    counters[num -1] += 1
