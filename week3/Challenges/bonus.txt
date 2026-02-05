@@ -1,0 +1,7 @@
+Name              Sales              Bonus
+---------------------
+Fred Bloggs    12345.56    370.37
+Paula Quigley    3456.45    103.69
+Miriam Morris    16845.23    505.36
+Sebastian Carroll    12545.89    376.38
+Manolo    3434343.3    103030.3
