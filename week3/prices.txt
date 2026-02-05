@@ -1,0 +1,10 @@
+Apple,56,0.25
+Orange,39,0.36
+Banana,45,0.12
+Mango,12,1.49
+Grape (bunch),94,1.99
+Blueberry (carton),85,2.49
+Gooseberry (carton),32,2.99
+Fig,47,0.99
+Melon,22,0.99
+Grapefruit,12,0.49

@@ -1,0 +1,10 @@
+Apple,56
+Orange,39
+Banana,45
+Mango,12
+Grape (bunch),94
+Blueberry (carton),36
+Gooseberry (carton),22
+Fig,47
+Melon,22
+Grapefruit,12
