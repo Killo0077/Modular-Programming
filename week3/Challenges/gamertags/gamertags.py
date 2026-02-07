@@ -37,7 +37,7 @@ print("\nAverage gamertag length: ", round(average, 2))
 search_name = input("\nEnter a first name to search: ")
 
 if search_name in FirstNames:
-    index = FirstNames.index.(search_name)
+    index = FirstNames.index(search_name)
     print("Gamertag: ", gamertags[index])
 else:
     print("Name not found.")
