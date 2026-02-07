@@ -1,0 +1,15 @@
+Liam,O'Sullivan,IrishWarrior
+Aoife,Murphy,EmeraldKnight
+Sean,O'Brien,CelticCrusader
+Emma,Johnson,LionHeart
+Oliver,Smith,BraveHeart
+Sophie,Williams,RoyalGuard
+Jakub,Nowak,EagleEye
+Zofia,Kowalski,IronClad
+Wojciech,Zielinski,SteelSword
+Adam,Majewski,ThunderBolt
+Layla,Hassan,DesertStorm
+Amina,Al-Farsi,OasisGuardian
+Omar,Khalil,SandStormer
+Oleksandr,Shevchenko,BlueShield
+Kateryna,Petrenko,GoldenSun
