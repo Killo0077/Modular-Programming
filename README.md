@@ -5,7 +5,7 @@
 <h1 align="center">⚡ Modular Programming Labs</h1>
 
 <p align="center">
-  Cyberpunk-inspired university project focused on clean architecture, modular design, and structured Python development.
+ 
 </p>
 
 ---
