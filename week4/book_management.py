@@ -124,4 +124,8 @@ while choice != 6:
     choice = int(input(menu)) 
 
 
+# Option 6 - Quit
 
+with open("records_book.txt","w") as file:
+    for author, title, year, sale in zip (authors, titles, years, sales):
+        file.write(f"{author},{title},{year},{sale}\n")
