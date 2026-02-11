@@ -27,12 +27,15 @@ menu = """
 3. Update the sales figure of a book
 4. Find books by an author
 5. Find the oldest book(s)
+6. Quit
 
 """
 
 choice = int(input(menu))
 
 while choice != 6:
+
+
     # if choice == 1:
     #     print("Add a new book")
     # elif choice == 2:
@@ -52,7 +55,8 @@ while choice != 6:
 # Option 1 - Create
 
     if choice == 1:
-        print("Please, add a new book")
+        print("======================")
+        print("Please, add a new book: \n")
         title = input("Title:")
 
         if title in titles:
@@ -70,6 +74,7 @@ while choice != 6:
 # Option 2 - Delete
 
     elif choice == 2:
+        print("==============================")
         print("What book would you delete: \n")
         title = input("Title to delete: ")
 
@@ -89,7 +94,8 @@ while choice != 6:
 # Option 3 - Update
 
     elif choice == 3:
-        title = input("Title to update: \n")
+        title = input("Title to update: \n ==> ")
+        
 
         if title in titles:
             index = titles.index(title)
@@ -105,13 +111,15 @@ while choice != 6:
 # Option 4 - Books by an author
 
     elif choice == 4:
-        name = input("Author name: \n")
+        name = input("\nAuthor name: \n ==> ")
         found = [titles[i] for i in range(len(authors)) if authors[i] == name]
 
         if found:
             print(",".join(found))
         else:
-            print("No books found")
+            print("**************")
+            print("Sorry, No books found")
+            print("**************")
 
 # Option 5 - Oldest book(s)
 
@@ -120,8 +128,12 @@ while choice != 6:
 
         for i in range(len(years)):
             if years[i] == oldest_year:
-                print(authors[i], "-", titles[i])
+                print("===============================================")
+                print("  *** ",authors[i], "-", titles[i], " ***",)
+                print("===============================================")
     choice = int(input(menu)) 
+    
+    
 
 
 # Option 6 - Quit
@@ -129,3 +141,5 @@ while choice != 6:
 with open("records_book.txt","w") as file:
     for author, title, year, sale in zip (authors, titles, years, sales):
         file.write(f"{author},{title},{year},{sale}\n")
+
+print("Thank you, GoodBye!!!")
