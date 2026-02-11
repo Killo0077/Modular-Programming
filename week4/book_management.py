@@ -47,6 +47,8 @@ while choice != 6:
     choice = int(input(menu))
     # print(menu)
 
+
+
 # Option 1 - Create
 
 if choice == 1:
@@ -64,4 +66,22 @@ if choice == 1:
         authors.append(author)
         years.append(year)
         tags.append(tag)
-print(menu)
+
+# Option 2 - Delete
+
+elif choice == 2:
+    print("What book would you delete: \n")
+    title = input("Title to delete: ")
+
+    if title in titles:
+        index = titles.index(title)
+
+        del titles[index]
+        del authors[index]
+        del years[index]
+        del tags[index]
+        print("Book deleted")
+    else:
+        print("Book not found!!!")
+
+choice = int(input(menu))
