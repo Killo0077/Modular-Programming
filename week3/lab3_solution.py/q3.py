@@ -58,3 +58,4 @@ print(f"The stock is valued at €{total:,.2f}")
 gs = " and ".join([fruit for fruit in fruits if fruit[0] == 'G'])
 print("The following fruits begin with 'g':", gs)
 print()
+
