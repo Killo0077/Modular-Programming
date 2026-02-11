@@ -6,7 +6,7 @@
 authors = []
 titles = []
 years =[]
-tags =[]
+sales =[]
 
 with open("records_book.txt","r") as file:
     for line in file:
@@ -15,7 +15,7 @@ with open("records_book.txt","r") as file:
         authors.append(data[0])
         titles.append(data[1])
         years.append(int(data[2]))
-        tags.append(int(data[3]))
+        sales.append(int(data[3]))
 
 # print(f"{names},{titles},{years},{tags}")
 
@@ -60,12 +60,12 @@ if choice == 1:
     else:
         author = input("Author: \n")
         year = int(input("Year: \n"))
-        tag = int(input("Tag: \n"))
+        sale = int(input("Tag: \n"))
 
         titles.append(title)
         authors.append(author)
         years.append(year)
-        tags.append(tag)
+        sales.append(sale)
 
 # Option 2 - Delete
 
@@ -79,7 +79,7 @@ elif choice == 2:
         del titles[index]
         del authors[index]
         del years[index]
-        del tags[index]
+        del sales[index]
         print("Book deleted")
     else:
         print("Book not found!!!")
@@ -93,9 +93,11 @@ elif choice == 3:
 
     if title in titles:
         index = titles.index(title)
-        print(f"{titles[index]} ({years[index]}) by {authors[index]} has sales of {tags[index]}")
+        print(f"{titles[index]} ({years[index]}) by {authors[index]} has sales of {sales[index]}")
 
         new_sales = int(input("New Sales: "))
-        tags[index] = new_sales
+        sales[index] = new_sales
     else:
         print("Book not found")
+
+        
