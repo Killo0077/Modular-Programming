@@ -84,4 +84,18 @@ elif choice == 2:
     else:
         print("Book not found!!!")
 
-choice = int(input(menu))
+
+
+# Option 3 - Update
+
+elif choice == 3:
+    title = input("Title to update: \n")
+
+    if title in titles:
+        index = titles.index(title)
+        print(f"{titles[index]} ({years[index]}) by {authors[index]} has sales of {tags[index]}")
+
+        new_sales = int(input("New Sales: "))
+        tags[index] = new_sales
+    else:
+        print("Book not found")
