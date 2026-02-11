@@ -100,4 +100,17 @@ while choice != 6:
         else:
             print("Book not found")
 
-    print(menu)
+    # print(menu)
+
+# Option 4 - Books by an author
+
+    elif choice == 4:
+        name = input("Author name: \n")
+        found = [titles[i] for i in range(len(authors)) if authors[i] == name]
+
+        if found:
+            print(",".join(found))
+        else:
+            print("No books found")
+
+
