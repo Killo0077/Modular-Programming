@@ -1,4 +1,8 @@
+# ------------------------------------------------
 # Book management system.
+# Reads book records from file 
+# Data stored & changes saved to file. 
+
 
 
 # Read from the list.
@@ -8,20 +12,20 @@ titles = []
 years =[]
 sales =[]
 
-with open("records_book.txt","r") as file:
+with open("records_book.txt","r") as file:  # Open file in read mode "r" 
     for line in file:
-        data = line.strip().split(",")
+        data = line.strip().split(",") # Remove newline and split by comma
 
-        authors.append(data[0])
+        authors.append(data[0])  # Append each field to its corresponding list
         titles.append(data[1])
         years.append(int(data[2]))
         sales.append(int(data[3]))
 
 # print(f"{names},{titles},{years},{tags}")
 
-# Menu processing
+# Menu processing ( string)
 
-menu = """
+menu = """  
 1. Add a new book
 2. Delete a book 
 3. Update the sales figure of a book
@@ -33,7 +37,7 @@ menu = """
 
 choice = int(input(menu))
 
-while choice != 6:
+while choice != 6:  # Terminate the program
 
 
     # if choice == 1:
@@ -112,7 +116,7 @@ while choice != 6:
 
     elif choice == 4:
         name = input("\nAuthor name: \n ==> ")
-        found = [titles[i] for i in range(len(authors)) if authors[i] == name]
+        found = [titles[i] for i in range(len(authors)) if authors[i] == name] # Create list of matching titles
 
         if found:
             print(",".join(found))
@@ -124,9 +128,9 @@ while choice != 6:
 # Option 5 - Oldest book(s)
 
     elif choice == 5:
-        oldest_year = min(years)
+        oldest_year = min(years) 
 
-        for i in range(len(years)):
+        for i in range(len(years)):  # Find minimun year
             if years[i] == oldest_year:
                 print("===============================================")
                 print("  *** ",authors[i], "-", titles[i], " ***",)
@@ -136,9 +140,9 @@ while choice != 6:
     
 
 
-# Option 6 - Quit
+# Option 6 - Quit 
 
-with open("records_book.txt","w") as file:
+with open("records_book.txt","w") as file:      # Overwrite "w" file updating list
     for author, title, year, sale in zip (authors, titles, years, sales):
         file.write(f"{author},{title},{year},{sale}\n")
 
