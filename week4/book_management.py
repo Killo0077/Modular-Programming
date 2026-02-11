@@ -3,7 +3,7 @@
 
 # Read from the list.
 
-author = []
+authors = []
 titles = []
 years =[]
 tags =[]
@@ -12,7 +12,7 @@ with open("records_book.txt","r") as file:
     for line in file:
         data = line.strip().split(",")
 
-        author.append(data[0])
+        authors.append(data[0])
         titles.append(data[1])
         years.append(int(data[2]))
         tags.append(int(data[3]))
@@ -45,4 +45,23 @@ while choice != 6:
         print("Find the oldest book")
 
     choice = int(input(menu))
-    print(menu)
+    # print(menu)
+
+# Option 1 - Create
+
+if choice == 1:
+    print("Please, add a new book")
+    title = input("Title:")
+
+    if title in titles:
+        print("That book is already in the list")
+    else:
+        author = input("Author: \n")
+        year = int(input("Year: \n"))
+        tag = int(input("Tag: \n"))
+
+        titles.append(title)
+        authors.append(author)
+        years.append(year)
+        tags.append(tag)
+print(menu)

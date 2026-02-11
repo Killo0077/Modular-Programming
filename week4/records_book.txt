@@ -20,4 +20,4 @@ Stieg Larsson,The Girl Who Played with Fire,2006,1102471
 Colson Whitehead,The Nickel Boys,2019,627345
 Alice Sebold,The Almost Moon,2007,893572
 Zadie Smith,On Beauty,2005,1034952
-Stieg Larsson,The Girl Who Kicked the Hornet's Nest,2007,1123951
+Stieg Larsson,The Girl Who Kicked the Hornet's Nest,2007,1123951 
