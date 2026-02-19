@@ -1,4 +1,5 @@
 #Exercise 2: Adding a New Technician
+# IT Technicians are regularly hired by the department
 
 names =[]
 roles =[]

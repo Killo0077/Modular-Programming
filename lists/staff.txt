@@ -1,5 +1,4 @@
 Liam O'Connor,Cloud Support Engineer,5
-Patrick O'Brien,IT Manager,10
 Alice Smith,Network Engineer,5
 Siobhan Murphy,Service Desk Technician,4
 Emily Taylor,Junior IT Technician,1

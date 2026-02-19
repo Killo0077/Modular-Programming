@@ -1,6 +1,9 @@
 # Exercise 1: Reading Staff Records
 
-# Create an empty  lists to store the data
+#Read file (name,role,years_experience) / Display all staff details in formatted table/ Output the total number of technician
+
+
+
 names =[]
 roles = []
 years_experience = []
