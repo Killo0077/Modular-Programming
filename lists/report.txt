@@ -1,0 +1,8 @@
+IT Staff Report
+------------------------
+Total technicians: {total}
+Average experience: 5.11 years
+Longes name: Agnieszka Zielinska
+Junior Technicians: 3
+Mid-level technicians: 11
+Senior technicians: 5
