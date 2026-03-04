@@ -19,7 +19,7 @@
 # print(should_lock_account(5, 5, 6)) # False - Newer account
 
 
-def lock_an_account (number : int, max: int, age: int) -> int:
+def lock_an_account (number : int, attempts: int, age: int) -> int:
     """
     :param number : number of failed attempts (integer)
     :param max: maximum attempts allowed (integer)
@@ -27,10 +27,10 @@ def lock_an_account (number : int, max: int, age: int) -> int:
     """
         # If account is new than 2 days
     if age < 7:
-        max = max + 2
+        attempts = attempts + 2
 
     # check if account should be locked
-    if number >= max:
+    if number >= attempts:
         return True
     else:
         return False
