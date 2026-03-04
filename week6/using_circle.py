@@ -8,9 +8,11 @@
 # in this file should this file be run".
 
 
-import circle
 
-r = 5
+import circle   # import the circle module that contais the function 
 
+r = 5   # random number value for test
+
+# call the circumference function from the circle module
 print("Circumference: ", circle.circumference(r))
-print("Area: ", circle.area(r))
+print("Area: ", circle.area(r)) # call the area function from the circle module.
