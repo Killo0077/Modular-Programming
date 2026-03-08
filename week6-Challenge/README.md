@@ -34,4 +34,4 @@ Adapt this function so that it receives the question (prompt) as a parameter.
 For example, the following code uses the same function to get a file's name but the question
 being asked is different each time – this is a much more useful function!
 
-![Week6 Challenge](assets/week6-challenge.png)
+<img src="../assets/week6-challenge.png" width="500">
