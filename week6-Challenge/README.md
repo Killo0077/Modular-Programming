@@ -32,4 +32,6 @@ Add code to print each mark and grade to this file instead of to the screen.
 The function above probably asks a generic question like "What is the name of the file?"
 Adapt this function so that it receives the question (prompt) as a parameter.
 For example, the following code uses the same function to get a file's name but the question
-being asked is different each time – this is a much more useful function
+being asked is different each time – this is a much more useful function!
+
+[alt text](../assets/week6-challenge.png)
