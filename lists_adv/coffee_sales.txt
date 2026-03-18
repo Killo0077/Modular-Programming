@@ -1,0 +1,5 @@
+Expresso, 120, 3.50
+Cappuccino, 80, 4.00
+Latte, 95, 3.80
+Americano, 110, 2.80
+Mocha, 60, 4.50

@@ -1,0 +1,5 @@
+Graphic Tee, 150, 19.99
+Plain White, 220,  14.99
+Vintage Logo, 180, 24.99
+Striped Pattern, 95, 17.99
+Custom Print, 120, 22.50
