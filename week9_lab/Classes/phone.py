@@ -12,11 +12,25 @@ class Phone():
         else:
             print("New storage must be greater than current")
 
+    def __str__(self):
+        return f"{self.brand} {self.model} {self.storage}Gb"
+
 if __name__ == '__main__':
-    my_phone= Phone("Apple","13",18)
+    # my_phone= Phone("Apple","13",18)
 
-    my_phone.new_storage(128)
+    # my_phone.new_storage(128)
 
-    print(my_phone.model)
-    print(my_phone.storage)
+    # print(my_phone.model)
+    # print(my_phone.storage)
+    phone1 = Phone("Apple", "Iphone 13", 128)
+    phone2 = Phone("Samsung", "Galaxy S21", 256)
+    phone3 = Phone("Apple", "Iphone 13", 128)
+
+    print(phone1)
+    print(phone2)
+    print(phone3)
+
+    phone1.new_storage(512)
+    print("Phone 1 has update memory",phone1)
+    
     
