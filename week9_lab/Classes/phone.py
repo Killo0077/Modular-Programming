@@ -14,6 +14,14 @@ class Phone():
 
     def __str__(self):
         return f"{self.brand} {self.model} {self.storage}Gb"
+    
+    def __eq__(self, other):
+        return(
+            self.brand == other.brand and 
+            self.model == other.model and 
+            self.storage == other.storage
+        )
+    
 
 if __name__ == '__main__':
     # my_phone= Phone("Apple","13",18)
@@ -26,11 +34,12 @@ if __name__ == '__main__':
     phone2 = Phone("Samsung", "Galaxy S21", 256)
     phone3 = Phone("Apple", "Iphone 13", 128)
 
-    print(phone1)
-    print(phone2)
-    print(phone3)
-
-    phone1.new_storage(512)
-    print("Phone 1 has update memory",phone1)
+    # print(phone1)
+    # print(phone2)
+    # print(phone3)
+    print(phone1 == phone2) # True
+    print(phone1 == phone3) # False
+    # phone1.new_storage(512)
+    # print("Phone 1 has update memory",phone1)
     
     
