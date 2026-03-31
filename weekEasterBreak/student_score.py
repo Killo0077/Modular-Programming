@@ -10,4 +10,6 @@ s1 = Student("John",80)
 
 print(s1.name, s1.score)
     
+    # no finished yet
+    
 

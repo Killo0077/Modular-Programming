@@ -21,5 +21,3 @@ if __name__ == '__main__':
     phone2 = Phone ("Samsung", "Galaxy S21", 256)
     phone3 = Phone ("Apple", "iPhone 16", 128)
 
-myphone = Phone
-print(Phone)
