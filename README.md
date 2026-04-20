@@ -8,19 +8,4 @@
  
 </p>
 
----
 
-## 🚀 About This Project
-
-This repository contains university lab practices focused on:
-
-- Modular programming principles
-- File handling
-- Separation of concerns
-
-
-
-
----
-
-## 📂 Project Structure
