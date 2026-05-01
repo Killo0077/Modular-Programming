@@ -1,0 +1,6 @@
+Palace,130,55
+Antica,180,60
+Blu,190,80
+Rocco,180,70
+Azzurra,250,90
+Mare,320,120

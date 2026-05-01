@@ -1,0 +1,8 @@
+ChatMaster,213,3.99
+Photo Fix,119,1.99
+Task Hero,675,2.50
+FitTrack,347,1.99
+Foodie Snap,471,2.87
+RunSync,1029,4.34
+Study Buddy,119,4.99
+Dream Journal,371,2.19
