@@ -1,0 +1,6 @@
+Mustard,Ham,3.50
+Tomato,Cheese,3.25
+Tomato,Rocket,3.90
+Egg,Mayonnaise,3.85
+Ham,Coleslaw,4.20
+Egg,Tomato,4.10
